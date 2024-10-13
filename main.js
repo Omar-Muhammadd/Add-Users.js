@@ -43,6 +43,6 @@ function creatElement(n,g) {
   document.body.appendChild(parent);
 }
 
-for(let i = 0 ; i< 13 ; i++){
+for(let i = 0 ; i< names.length ; i++){
     creatElement(names[i],agees[i]);
 }
